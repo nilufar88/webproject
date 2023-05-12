@@ -37,7 +37,7 @@
 <div class="bgc_blue"></div>
 <div class="container">
     <div class="tabcontainer">
-        <div class="tabcontent">
+        <div class="tabcontainer">
             <img src="img/tabs/vegy.jpg" alt="vegy">
             <div class="tabcontent__descr">
                 The menu Fitness is a new approach to the food preparation!
@@ -83,7 +83,7 @@
     <div class="offer__text">
         <h2 class="title">What we can offer you?</h2>
         <div class="offer__descr">
-            Our main idea is to offer a well-balanced food to everyone.
+            Our main idea is to offer a well-balanced food to everyone. You have an exclusive opportunity to select an individual menu as per your needs.
         </div>
     </div>
     <div class="offer__action">
@@ -94,7 +94,7 @@
     <div class="offer__advantages">
         <h2>Fast and healthy</h2>
         <div class="offer__advantages-text">
-            Cooking at home takes a lot of time...
+            Cooking at home takes a lot of time. That's why here we offer a wide range of different menus suiting everyone.
         </div>
         <h2>A right ration</h2>
         <div class="offer__advantages-text">
@@ -117,7 +117,7 @@
             <div class="offer__slide">
                 <img src="img/slider/pepper.jpg" alt="pepper">
             </div>
-            <!-- <div class="offer__slide">
+            <div class="offer__slide">
                 <img src="img/slider/food-12.jpg" alt="food">
             </div>
             <div class="offer__slide">
@@ -142,8 +142,8 @@
             Gender
         </div>
         <div class="calculating__choose" id="gender">
-            <div class="calculating__choose-item calculating__choose-item_active">Woman</div>
-            <div class="calculating__choose-item">Мan</div>
+            <div id="female" class="calculating__choose-item calculating__choose-item_active">Woman</div>
+            <div id="male" class="calculating__choose-item">Мan</div>
         </div>
 
         <div class="calculating__subtitle">
@@ -159,10 +159,10 @@
             Choose your physical activeness
         </div>
         <div class="calculating__choose calculating__choose_big">
-            <div id="low" class="calculating__choose-item">Low activeness </div>
-            <div id="small"  class="calculating__choose-item calculating__choose-item_active">Not high activeness</div>
-            <div id="medium" class="calculating__choose-item">Average activeness</div>
-            <div id="high" class="calculating__choose-item">High activeness</div>
+            <div data-ratio="1.2" id="low" class="calculating__choose-item">Low activeness </div>
+            <div data-ratio="1.375" id="small"  class="calculating__choose-item calculating__choose-item_active">Not high activeness</div>
+            <div data-ratio="1.55" id="medium" class="calculating__choose-item">Average activeness</div>
+            <div data-ratio="1.725" id="high" class="calculating__choose-item">High activeness</div>
         </div>
 
         <div class="calculating__divider"></div>
@@ -186,34 +186,6 @@
 
 <div class="menu__field">
     <div class="container">
-        <div class="menu__item">
-            <img src="img/tabs/vegy.jpg" alt="vegy">
-            <h3 class="menu__item-subtitle">The menu Fitness</h3>
-            <div class="menu__item-descr">The menu Fitness is a new approach to food preparation.</div>
-            <div class="menu__item-divider"></div>
-            <div class="menu__item-price">
-                <div class="menu__item-cost">Price:</div>
-                <div class="menu__item-total"><span>10</span> EUR/day</div>
-        <div class="menu__item">
-            <img src="img/tabs/elite.jpg" alt="elite">
-            <h3 class="menu__item-subtitle">The menu Premium</h3>
-            <div class="menu__item-descr">The menu contains...</div>
-            <div class="menu__item-divider"></div>
-            <div class="menu__item-price">
-                <div class="menu__item-cost">Prie:</div>
-                <div class="menu__item-total"><span>15</span> EUR/day</div>
-            </div>
-        </div>
-        <div class="menu__item">
-            <img src="img/tabs/post.jpg" alt="post">
-            <h3 class="menu__item-subtitle">The menu Veg</h3>
-            <div class="menu__item-descr">The menu Veg...</div>
-            <div class="menu__item-divider"></div>
-            <div class="menu__item-price">
-                <div class="menu__item-cost">Price:</div>
-                <div class="menu__item-total"><span>5</span> EUR/day</div>
-            </div>
-        </div>
     </div>
 </div>
 </div>
@@ -238,7 +210,7 @@
     <div class="promotion__text">
         <div class="title">Discount for clients!</div>
         <div class="promotion__descr">
-            We offer discount for our clients. 
+            We offer discount for our clients. The special offer is valid for the customers who orders meal every week.
             <br><br>
            The end of promotion May 20 at 00:00
         </div>
